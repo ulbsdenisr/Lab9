@@ -12,7 +12,7 @@ public class Main {
 
         ListaPersoane.export(list, false);
 
-        ListaPersoane.export(list, true); // Scrie in fisier
+        ListaPersoane.export(list, true);
     }
 }
 

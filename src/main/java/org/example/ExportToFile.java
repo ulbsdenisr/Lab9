@@ -5,7 +5,12 @@ import java.io.IOException;
 import java.util.List;
 
 public class ExportToFile implements Exporter {
-    private String
+    private String fileName;
+
+    public ExportToFile(String fileName) {
+        this.fileName = fileName;
+    }
+
     @Override
     public void export(List<Persoana> persoane) {
         try (FileWriter writer = new FileWriter(fileName)) {
