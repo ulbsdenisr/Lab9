@@ -13,6 +13,8 @@ public class Main {
         ListaPersoane.export(list, false);
 
         ListaPersoane.export(list, true);
+
+        ListaPersoane.export(list, false);
     }
 }
 
